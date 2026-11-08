@@ -1,0 +1,17 @@
+{
+  "name": "backend-malix",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "express": "^5.1.0",
+    "puppeteer-core": "^25.16.0",
+    "ws": "^8.22.1"
+  }
+}
